@@ -56,69 +56,69 @@ Year: 2021
 <img src="demo/3.png" alt="Terms & Conditio" width="800"/>
 
 #### Privacy Policy
-<img src="demo/3.png" alt="Privacy Policy" width="800"/>
+<img src="demo/4.png" alt="Privacy Policy" width="800"/>
 
 #### Login
-<img src="demo/4.png" alt="Login" width="800"/>
+<img src="demo/5.png" alt="Login" width="800"/>
 
 #### Singup
-<img src="demo/5.png" alt="Singup" width="800"/>
+<img src="demo/6.png" alt="Singup" width="800"/>
 
 #### forget password
-<img src="demo/6.png" alt="forget password" width="800"/>
+<img src="demo/7.png" alt="forget password" width="800"/>
 <br>
 <br>
 
 
 ### User
 #### Home
-<img src="demo/7.png" alt="Home" width="800"/>
+<img src="demo/8.png" alt="Home" width="800"/>
 
 #### MyProfile
-<img src="demo/8.png" alt="MyProfile" width="800"/>
+<img src="demo/9.png" alt="MyProfile" width="800"/>
 
 #### Edit Profile
-<img src="demo/9.png" alt="Edit Profile" width="800"/>
+<img src="demo/10.png" alt="Edit Profile" width="800"/>
 
 #### MyStocks
-<img src="demo/10.png" alt="MyStocks" width="800"/>
+<img src="demo/11.png" alt="MyStocks" width="800"/>
 
 #### Stock page
-<img src="demo/11.png" alt="Stock page" width="800"/>
+<img src="demo/12.png" alt="Stock page" width="800"/>
 
 #### Single Stock view
-<img src="demo/12.png" alt="Single Stock view" width="800"/>
+<img src="demo/13.png" alt="Single Stock view" width="800"/>
 <br>
 <br>
 
 
 ### Admin
 #### index
-<img src="demo/13.png" alt="index" width="800"/>
+<img src="demo/14.png" alt="index" width="800"/>
 
 #### Login
-<img src="demo/14.png" alt="Login" width="800"/>
+<img src="demo/15.png" alt="Login" width="800"/>
 
 #### Home (Showing user)
-<img src="demo/15.png" alt="Home" width="800"/>
+<img src="demo/16.png" alt="Home" width="800"/>
 
 #### User Details
-<img src="demo/16.png" alt="User Details" width="800"/>
+<img src="demo/17.png" alt="User Details" width="800"/>
 
 #### View Bidded Stock
-<img src="demo/17.png" alt="View Bidded Stock" width="800"/>
+<img src="demo/18.png" alt="View Bidded Stock" width="800"/>
 
 #### MyProfile (Admin)
-<img src="demo/18.png" alt="MyProfile (Admin)" width="800"/>
+<img src="demo/19.png" alt="MyProfile (Admin)" width="800"/>
 
 #### Showing user (List view)
-<img src="demo/19.png" alt="Showing user (List view)" width="800"/>
+<img src="demo/20.png" alt="Showing user (List view)" width="800"/>
 
 #### Add Stock
-<img src="demo/20.png" alt="Add Stock" width="800"/>
+<img src="demo/21.png" alt="Add Stock" width="800"/>
 
 #### Update Stock
-<img src="demo/21.png" alt="Update Stock" width="800"/>
+<img src="demo/22.png" alt="Update Stock" width="800"/>
 
 
 ## Authors
