@@ -1,0 +1,298 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+	/* background-color:white; */
+	--on: #88e661;
+	--off: #f0f0f0;
+	--transDur: 0.6s;
+
+	/* border: 2px solid red; */
+	/* background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url(../img/admin_back.jpg) no-repeat center center / cover; */
+	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(../img/admin_back.jpg) no-repeat center center / cover;
+}
+
+.container-fluid{
+	
+	/* background-color:black; */
+	/* height:100%; */
+	/* width:100%; */
+	/* position:absolute; */
+}
+
+.row{
+	/* border:1px solid blue; */
+	/* height:100%; */
+}
+
+.nav-holder{
+	/* border:1px solid red; */
+	width:100%;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	height:90px;
+	z-index:2;
+	/* background-color:#12181E; */
+}
+
+.nav-holder .nav-bar{
+	/* border:1px solid blue; */
+	
+	position:absolute;
+	display:inline-block;
+	/* width:100%; */
+	font-family: "Nunito", sans-serif;
+	font-size: 15px;
+	right:2%;
+	/* height:60px; */
+}
+
+.nav-holder .nav-bar .main-menu{
+	/* border:1px solid green; */
+	/* display:inline-block; */
+	list-style:none;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	padding:0px;
+	margin:0px;
+}
+
+.nav-holder .nav-bar .main-menu .main-menu-li{
+	/* border:1px solid green; */
+	display:inline-block;
+	margin:0px 2px;
+	
+	height:60px;
+	
+}
+
+
+.nav-holder .nav-bar .main-menu .main-menu-li .nav-custom{
+	
+	/* border:1px solid red; */
+	height:60px;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.nav-holder .nav-bar .main-menu .main-menu-li .menu-link{
+	
+	/* color:rgba(255, 255, 255, 0.8); */
+	color:rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+	padding:4px 8px;
+	font-weight:600;
+}
+
+.nav-holder .nav-bar .main-menu .main-menu-li .active-menu{
+	/* border:1px solid red; */
+	/* padding:4px; */
+	background-color:rgba(20, 75, 255, 1.0);
+	border-radius:5px;
+	color:white;
+	
+}
+
+.nav-holder .nav-bar .main-menu .main-menu-li .menu-link:hover{
+	
+	color:rgba(0, 0, 0, 1);
+	transition:all 1s;
+	
+	/* transform:scale(1.05); */
+}
+
+.nav-holder .nav-bar .main-menu .user-name-sec{ 
+	
+	color:rgba(0, 0, 0, 1);
+	/* border:1px solid green; */
+	text-decoration: none;
+	padding:4px 8px;
+	font-weight:600;
+}
+
+.nav-holder .nav-bar .main-menu .main-menu-li .active-dot{
+	/* border:1px solid green; */
+	font-size:10px;
+	color:#00DC10;
+}
+
+
+
+
+.nav-holder .logo{
+	
+	font-family: "Nunito", sans-serif;
+	
+	position:absolute;
+	left:0%;
+	margin-left:25px;
+	
+	/* border:1px solid red; */
+	height:50px;
+	/* width:80px; */
+	
+	font-size: 24px;
+    color: black;
+    font-weight: 700;
+    /* left: 30px; */
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+
+.nav-holder .logo .fa-circle{
+	/* border:1px solid red; */
+	font-size:35px;
+	margin-right:5px;
+	color:#FF6014;
+	transform:translate(0%,-5%);
+}
+
+
+.nav-holder .order{
+	
+	font-family: "Nunito", sans-serif;
+	/* display:inline-block; */
+	font-size:13px;
+	
+	position:absolute;
+	right:0%;
+	margin-right:10px;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	color:white;
+	
+	padding:10px 15px;
+	border-radius:20px;
+	
+	background-color:#FF6014;
+	font-weight:600;
+}
+
+
+.nav-holder .sub-nav{
+	
+	/* border:1px solid red; */
+	
+	font-family: "Nunito", sans-serif;
+	
+	margin-top:24px;
+	margin-left:-50px;
+	display:flex;
+	position:absolute;
+	background-color:#FFF9EE;
+	
+	padding:15px 0px;
+	
+	opacity:0;
+	visibility: hidden;
+	
+	transition:all 0.5s;
+	
+	transform:translate(28%,100%);
+	border-radius: 4px;
+}
+
+.nav-holder .sub-nav .second-menu{
+
+	/* border:1px solid blue; */
+	display:block;
+	padding:0px;
+}
+
+.nav-holder .sub-nav .second-menu .second-menu-li{
+	
+	display:block;
+	/* border:1px solid green; */
+	/* min-width:100px; */
+	margin:5px 0px;
+	padding:5px 20px;
+	display:flex;
+}
+
+.nav-holder .sub-nav .second-menu .second-menu-li a{
+
+	color:Black;
+	/* border:1px solid green; */
+	text-decoration:none;
+}
+
+.nav-holder .sub-nav .second-menu .second-menu-li a:hover{
+
+	transition:all 0.5s;
+	color:rgba(20, 75, 255, 1.0);;
+	
+}
+
+
+
+
+.nav-holder .sub-nav .second-menu .active-submenu{
+	
+	/* border:1px solid red; */
+	
+	background-color: rgb(89, 128, 255);;
+	border-radius:4px;
+
+}
+.nav-holder .sub-nav .second-menu .active-submenu a{
+	color:white;
+}
+
+.nav-holder .sub-nav .second-menu .active-submenu a:hover{
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

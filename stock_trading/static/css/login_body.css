@@ -1,0 +1,468 @@
+body{
+	background-color:#ECECEC;
+	background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(../img/login_back.jpeg) no-repeat center center / cover;
+}
+
+.header-image{
+	
+	/* background: url(../img/back.jpg) no-repeat center center / cover; */
+	/* border:1px solid red; */
+	/* height:500px; */
+	width:100%;
+	
+	z-index:1;
+	/* margin-top:-90px; */
+
+	/* background-color:#FAEBF2; */
+	background-color:#ececec00;
+	
+	margin:0px;
+	padding:0px;
+
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	padding-top:10px;
+}
+
+.header-image .header-body{
+	
+	/* height:100%; */
+
+	background:rgba(0, 0, 0, 0.2);
+	/* backdrop-filter:blur(4px); */
+	
+	color:orange;
+	/* font-size:50px; */
+	
+	margin:0px;
+	padding:40px;
+	
+	width:60%;
+	
+	/* border:1px solid red; */
+	margin-top: 70px;
+	margin-bottom:100px;
+	border-radius: 40px;
+}
+
+.header-image .header-body .left-col{
+	
+	/* height:100%; */
+	/* border:1px solid red; */
+
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	/* background:rgba(0, 0, 0, 0.3); */
+	/* backdrop-filter:blur(4px); */
+	
+	color:orange;
+	/* font-size:50px; */
+}
+
+
+.header-image .header-body .left-col .box-holder{
+
+	width:90%;
+	/* border:1px solid red; */
+	border-radius:15px;
+	
+	padding:20px;
+	background-color:white;
+	
+}
+
+
+.header-image .header-body .left-col .info-box-1{
+	
+	/* border:1px solid blue; */
+	color:red;
+	font-weight:600;
+	font-size:14px;
+}
+
+.header-image .header-body .left-col .info-box-2{
+	
+	/* border:1px solid red; */
+	font-weight:700;
+	font-size:25px;
+	
+	display:flex;
+	margin-top:10px;
+	color:black;
+}
+
+.header-image .header-body .left-col .info-box-2 span{
+	
+	/* position:absolute; */
+	/* border:1px solid blue; */
+
+	font-weight:600;
+	font-size:14px;
+	
+	display:flex;
+	transform:translate(5%,15%);
+}
+
+
+.header-image .header-body .left-col .info-box-3{
+	
+	/* border:1px solid red; */
+	/* font-weight:700; */
+	font-size:12px;
+	display:flex;
+	color:black;
+}
+
+.header-image .header-body .left-col .info-box-border{
+	
+	border-top:1px solid #BBBBBB;
+	/* font-weight:700; */
+	width:100%;
+	/* font-size:12px; */
+	/* display:flex; */
+	/* color:black; */
+	
+	margin:20px 0px;
+}
+
+
+
+.header-image .header-body .left-col .info-box-4{
+	
+	/* border:1px solid red; */
+	/* font-weight:700; */
+	font-size:16px;
+	display:flex;
+	color:black;
+	
+	display:flex;
+	text-align: center;
+	/* justify-content:center; */
+	/* align-items: center; */
+}
+
+.header-image .header-body .left-col .info-box-4 .fa-check-circle{
+	
+	/* border:1px solid blue; */
+	color:#757575;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin-right:5px;
+}
+
+
+.header-image .header-body .left-col .info-box-5{
+	
+	/* border:1px solid red; */
+	font-weight:700;
+	font-size:16px;
+	display:flex;
+	color:black;
+	
+	margin-bottom:12px;
+	/* justify-content:center; */
+	/* align-items: center; */
+}
+
+
+.header-image .header-body .left-col .info-box-6{
+	
+	/* border:1px solid red; */
+	font-size:16px;
+	display:flex;
+	color:black;
+	line-height:1rem;
+	/* display:flex; */
+	/* text-align: center; */
+	/* justify-content:center; */
+	/* align-items: center; */
+	margin-bottom:8px;
+}
+
+.header-image .header-body .left-col .info-box-6 .fa-circle{
+	
+	color:#A4A4A4;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin-right:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-image .header-body .right-col{
+	
+	/* height:100%; */
+	/* border:1px solid red; */
+
+	display:flex;
+	/* justify-content:center; */
+	/* align-items: center; */
+
+}
+
+.header-image .header-body .right-col .box-holder-2{
+
+	width:100%;
+	/* border:1px solid red; */
+	border-radius:15px;
+	
+	padding:10px;
+	
+}
+
+.header-image .header-body .right-col .log-box-1{
+	
+	/* border:1px solid blue; */
+	/* color:red; */
+	font-weight:700;
+	font-size:25px;
+	color:#2E2E2E;
+	
+	margin-bottom:15px;
+}
+
+.header-image .header-body .right-col .log-box-2{
+	
+	/* border:1px solid red; */
+	font-size:14px;
+	color:#404040;
+	
+	margin-bottom:20px;
+}
+
+.header-image .header-body .right-col form{
+	
+	/* border:1px solid red; */
+	width:100%;
+	max-width:500px;
+	/* display:flex; */
+	justify-content:center;
+	align-items: center;
+}
+
+
+.header-image .header-body .right-col form label{
+	
+	/* border:1px solid red; */
+	font-size:14px;
+	color:black;
+	width:100%;
+	margin-bottom:0px;
+}
+
+.header-image .header-body .right-col form .input-box{
+	
+	
+	font-size:14px;
+	color:#404040;
+
+	width:100%;
+	
+	border:none;
+	/* border:1px solid red; */
+	
+	/* border-radius:6px; */
+	/* margin:0px; */
+	margin-bottom:5px;
+	padding:5px 10px;
+}
+
+
+
+
+.header-image .header-body .right-col form .term-agree{
+	
+	/* border:1px solid red; */
+	font-size:14px;
+	color:#404040;
+	font-weight:bold;
+	width:100%;
+	
+	border-radius:6px;
+	
+	margin-top:80px;
+	margin-bottom:15px;
+}
+
+.header-image .header-body .right-col form .term-agree a{
+	
+	color:#6e14ff;
+	/* border:1px solid red; */
+}
+
+
+
+.header-image .header-body .right-col form .signup-sec{
+
+	/* border:1px solid yellow; */
+	display:flex;
+	
+	
+}
+
+
+.header-image .header-body .right-col form .signup-sec .signup-button{
+	
+	background-color:#6e14ff;
+	color:white;
+	padding:8px 15px;
+	font-weight:600;
+	/* width:300px; */
+	/* display:block; */
+	/* display:inline-block; */
+	
+	border-radius:6px;
+	/* border:1px solid red; */
+	border:none;
+	float:left;
+}
+
+.header-image .header-body .right-col form .signup-sec .signup-button:hover{
+	
+	color:black;
+	transition:all .5s;
+	
+}
+
+.header-image .header-body .right-col form .signup-sec .signup-info{
+
+	color:#F04506;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	font-size:14px;
+	
+	/* border:1px solid blue; */
+	position:relative;
+	/* margin-left:200px; */
+	/* min-margin-left:50px; */
+	/* float:right; */
+	width:100%;
+	/* text-align: right; */
+	
+	/* float:right; */
+}
+
+.header-image .header-body .right-col form .signup-sec .signup-info a{
+
+	color:#6e14ff;
+	display:flex;
+	position:absolute;
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items: center; */
+	
+	/* width:100%; */
+	/* text-align: right; */
+	
+	/* border:1px solid red; */
+	/* height:15px; */
+	/* float:right; */
+	right:0%;
+}
+
+.header-image .header-body .right-col form .signup-sec .signup-info .fa-info-circle{
+
+	color:#6e14ff;
+	display:flex;
+	
+	font-size:14px;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	/* border:1px solid red; */
+	
+	transform:translate(0%,15%);
+	margin-right:5px;
+	/* height:100%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

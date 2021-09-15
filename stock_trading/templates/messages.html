@@ -1,0 +1,8 @@
+{% if messages %}
+    {% for message in messages %}
+
+        <select id="msg" hidden>    
+            <option>{{ message }}</option>      
+        </select>    
+    {% endfor %}
+{% endif %}

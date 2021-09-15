@@ -1,0 +1,400 @@
+.body-element-1{
+	
+	/* border:1px solid red; */
+	width:100%;
+
+}
+
+.body-element-1 .trading-part-container{
+	
+	/* border:1px solid red; */
+	width:100%;
+	
+	padding:0px;
+	margin:0px;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	
+}
+
+.body-element-1 .trading-part-container .trading-part-row{
+	
+	/* border:1px solid red; */
+	width:84%;
+	
+	padding:0px;
+	margin:35px 0px;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts{
+	
+	/* border:1px solid blue; */
+	/* height:200px; */
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	margin:15px 0px;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box{
+	
+	border:2px solid #EAE7E0;
+	/* height:100%; */
+	width:90%;
+	
+	padding:5px;
+	border-radius:10px;
+	background-color:#FEFCF8;
+	
+	transition:all 0.5s;
+}
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box:hover{
+	
+	cursor:pointer;
+	background-color:#EAE7E0;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box .trading-img{
+	/* border:1px solid red; */
+	/* height:100%; */
+	width:100%;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box .trading-img .fa-chart-line{
+	font-size:30px;
+	padding:10px;
+	
+	/* border:1px solid red; */
+	border-radius:50%;
+	margin:10px;
+	
+	background-color:white;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box .trading-heading{
+
+	/* height:100%; */
+	width:100%;
+	font-size:20px;
+	font-weight:600;
+	padding:5px;
+}
+
+
+.body-element-1 .trading-part-container .trading-part-row .trading-parts .trading-box .trading-text{
+
+	width:100%;
+	font-size:17px;
+	/* font-weight:600; */
+	padding:5px;
+}
+
+
+
+
+
+
+.body-element-1 .about-part-container{
+	
+	/* border:1px solid red; */
+	width:100%;
+	
+	padding:0px;
+	margin:0px;
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	background-color:#FBF8F2;
+}
+
+.body-element-1 .about-part-container .about-part-row{
+	
+	/* border:1px solid red; */
+	width:96%;
+	
+	padding:0px;
+	margin:20px 0px;
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts{
+	
+	/* border:1px solid blue; */
+	/* height:200px; */
+	
+	display:flex;
+	justify-content:center;
+	/* align-items: center; */
+	margin:15px 0px;
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box{
+	
+	/* border:1px solid red; */
+	width:90%;
+	padding:10px;
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .about-title{
+	
+	/* border:1px solid red; */
+	font-size:20px;
+	font-family: "Nunito", sans-serif;
+	font-weight:600;
+	
+	display:flex;
+	/* justify-content:center; */
+	/* align-items: center; */
+	
+	padding:5px;
+	
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .about-title .fa-circle{
+	
+	color:#6e14ff;
+	transform:translate(0%,-8%);
+	font-size:30px;
+	font-weight:600;
+	margin-right:5px;
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .about-title .fa-info-circle{
+	
+	color:#49ACE8;
+	transform:translate(0%,-8%);
+	font-size:30px;
+	font-weight:600;
+	margin-right:5px;
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .about-title .fa-address-book{
+	
+	color:#494BE8;
+	transform:translate(0%,-8%);
+	font-size:30px;
+	font-weight:600;
+	margin-right:5px;
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .about-des{
+	
+	/* border:1px solid red; */
+	font-family: "Nunito", sans-serif;
+	font-size:16px;
+	/* font-weight:600; */
+	padding:5px;
+	
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .information-des{
+	
+	/* border:1px solid red; */
+	font-family: "Nunito", sans-serif;
+	font-size:16px;
+	font-weight:600;
+	padding:3px 4px;
+	margin-left:10px;
+	
+	/* color:#494D4D; */
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .information-des .fa-dot-circle{
+	
+	margin-right:5px;
+	
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .information-des a{
+	
+	text-decoration:none;
+	color:#494D4D;
+	/* border:1px solid red; */
+	transition:all 0.5s;
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .information-des a:hover{
+	
+	color:#0068FF;
+}
+
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .contact-title{
+	
+	/* border:1px solid red; */
+	margin-bottom:15px;
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .contact-des{
+	
+	/* border:1px solid red; */
+	font-family: "Nunito", sans-serif;
+	font-size:16px;
+	font-weight:600;
+	padding:3px 4px;
+	margin-left:10px;
+	
+	color:#3B3D3D;
+	display:flex;
+	margin-top:2px;
+}
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .contact-des .fa-map-marked-alt{
+	
+	/* border:1px solid red; */
+	display:flex;
+	transform:translate(0%,8%);
+}
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .contact-des .fass{
+	
+	/* border:1px solid red; */
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+
+
+.body-element-1 .about-part-container .about-part-row .about-parts .about-box .contact-des .des-only{
+	
+	/* border:1px solid red; */
+
+}
+
+
+
+.body-element-1 .copyright-holder{
+	
+	/* border:1px solid red; */
+	/* width:120%; */
+
+}
+
+.body-element-1 .copyright-holder .copyright-box{
+	
+	/* border:1px solid red; */
+	/* width:100%; */
+	/* width:120%; */
+	
+	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	
+	font-family: "Nunito", sans-serif;
+	font-size:14px;
+	
+	padding:15px 0px;
+	
+	background-color:#F9F0E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

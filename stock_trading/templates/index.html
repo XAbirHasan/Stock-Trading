@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+{% if request.session.Email and request.session.User %}
+	<meta http-equiv="REFRESH" content="0;url=/user_page">
+{% endif %}
+{% load static %} 
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+	<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style_home.css' %}" rel="stylesheet">
+	<link href="{% static 'css/style_body.css' %}" rel="stylesheet">
+	
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet">
+	
+   <!-- font-awesome v6 -->
+   <link href="{% static 'fontawesome_web/css/all.css' %}" rel="stylesheet">
+   <title>Automated Stock Trading</title>
+   <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/gif" sizes="16x16">
+   
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class="main-gate" id="main_gate">
+				<div class="gate-left" id="gate_left">
+					<div class="locker" id="lock_part_1"></div>
+				</div>
+				
+				<div class="gate-right" id="gate_right">
+					<div class="locker" id="lock_part_2"></div>
+					<div class="locker-center" id="lock_part_3"></div>
+				</div>
+			</div>
+			
+			
+			<div class="nav-holder">
+				
+				<div class="logo"> <img src="{% static 'img/favicon.png' %}" alt="" height="80px" width="110px"> Automated Stock Trading</div>
+			
+				<div class="nav-bar">
+					<ul class="main-menu">
+						<li class="main-menu-li"><div class="nav-custom"><a href="/" class="active-menu"> <!-- <i class="fas fa-sign-in-alt"></i> --> Home</a></div></li>
+						<li class="main-menu-li"><div class="nav-custom"><a href="/login"> <!-- <i class="fas fa-sign-in-alt"></i> --> Login</a></div></li>
+						<li class="main-menu-li"><div class="nav-custom"><a href="/signup"> <!-- <i class="fas fa-user-plus"></i>  --> Signup</a></div></li>
+						<!-- <li class="main-menu-li" id="menu"><div class="nav-custom"><a href="#"><i class="fab fa-buffer"></i> Profile &nbsp;<i class="fas fa-angle-down"></i></a> -->
+							
+							<!-- <div class="sub-nav" id="sub_menu"> -->
+								<!-- <ul class="second-menu"> -->
+									<!-- <li  class="second-menu-li"><a href="#">Element</a></li> -->
+									<!-- <li  class="second-menu-li"><a href="#">Menu Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-right"></i></a></li> -->
+									<!-- <li  class="second-menu-li"><a href="#">Menu Three</a></li> -->
+								<!-- </ul> -->
+							<!-- </div> -->
+						<!-- </div> -->
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			
+			<div class="header-image">
+			
+				<div class="header-body">
+					
+					<div class="info-text">
+						<div class="heading-text">Join for the latest <br>updates</div>
+						<div class="sub-text">Join millions who've already discovered smarter investing in multiple types of assets. Choose an investment product to start with.</div>
+						<div class="search-box"><div class="search-input"><button onclick="window.location.href='/signup'">Join Us</button></div></div>
+					</div>
+					
+					<div class="scroll-down bounce-5"></div>
+					
+					<div class="social-media-icons">
+						<div class="social-icons wha-soc" id="wha-soc"><div class="wave-effect" id="wha-eff"></div><i class="fab fa-whatsapp" onclick="window.location.href='https://www.whatsapp.com/?lang=en'"></i></div>
+						<div class="social-icons ins-soc" id="ins-soc"><div class="wave-effect" id="ins-eff"></div><i class="fab fa-instagram" onclick="window.location.href='https://www.instagram.com/'"></i></div>
+						<div class="social-icons face-soc" id="face-soc"><div class="wave-effect" id="fac-eff"></div><i class="fab fa-facebook-f" onclick="window.location.href='https://www.facebook.com/'"></i></div>
+						<div class="social-icons twi-soc" id="twi-soc"><div class="wave-effect" id="twi-eff"></div><i class="fab fa-twitter" onclick="window.location.href='https://twitter.com/?lang=en'"></i></div>
+					</div>
+					
+					
+				</div>
+				
+			</div>
+			
+			<!-- {{stock_data}} -->
+			
+			<div class="body-element-1">
+			
+				<div class="container-fluid trading-part-container">
+					<div class="row trading-part-row">
+						{% for x in stock_data %}
+							<div class="col-lg-3 col-md-6 trading-parts">
+								<div class="trading-box">
+									<div class="trading-img"><i class="fas fa-chart-line"></i></div>
+									<div class="trading-heading">{{x.name}}</div>
+									<div class="trading-text">changePercent : {{x.changePercent}} %</div>
+								</div>
+							</div>
+						{% endfor%}
+						
+					</div>
+				
+				</div>
+				
+				<!-- ABOUT SECTON -->
+				<div id="content">{% include 'module\about.html' %}</div>
+				<!-- END ABOUT SECTION --> 
+				
+				<div class="copyright-holder">
+					<div class="copyright-box">
+						Copyright ©2021 All rights reserved
+					</div>
+				</div>
+					
+			</div>
+			
+		</div>
+	</div>
+
+    <!-- JavaScript -->
+	<script type="text/javascript" src="{% static 'script/jquery-3.5.1.min.js' %}"></script>
+	
+	<script type="text/javascript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'script/sweetalert.min.js' %}"></script>
+   
+    <!-- JavaScript custom-->
+	<script type="text/javascript" src="{% static 'script/index.js' %}"></script>
+   
+
+</body>
+
+</html>
