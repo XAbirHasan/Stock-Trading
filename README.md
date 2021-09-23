@@ -9,7 +9,7 @@ Name: Stock-Trading <br>
 Fronted Language: HTML, CSS, JS <br>
 Backend : python (Django) <br>
 Platform: WEB <br>
-Project No: 26 <br>
+Project No: 27 <br>
 Year: 2021
 
 ## Features:
