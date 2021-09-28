@@ -43,7 +43,7 @@ Year: 2021
 
 
 ## Demo Video
-<!-- [![IMAGE ALT TEXT](http://img.youtube.com/vi/dIQwkALpu0g/0.jpg)](http://www.youtube.com/watch?v=dIQwkALpu0g "Stock-Trading||  A social trading platform") -->
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/DFzdZuZMSHg/0.jpg)](http://www.youtube.com/watch?v=DFzdZuZMSHg "Stock-Trading||  A social trading platform")
 
 ## Screen shot
 
